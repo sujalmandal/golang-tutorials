@@ -29,4 +29,14 @@ func main() {
 	//map with struct as key
 	movieInfo = map[string]Movie{"aquaman": Movie{releaseYear: "2018", directorName: "James Wan", cast: []string{"Jason Momoa", "Amber Heard"}}}
 	fmt.Println(movieInfo)
+	element, doesExist := movieInfo["aquaman"]
+	fmt.Println(element, doesExist)
+	//delete an element
+	delete(movieInfo, "aquaman")
+	fmt.Println("map contents after delete: ", movieInfo)
+	element, doesExist = movieInfo["aquaman"]
+	fmt.Println(element, doesExist)
+	//check if element exists
+	_, elementPresent := movieInfo["aquaman"]
+	fmt.Println("element present-> ", elementPresent)
 }
