@@ -7,3 +7,4 @@ repository for golang basics
 4. stdlib-strings
 5. stdlib-sort
 6. loops
+7. functions 
