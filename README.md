@@ -8,3 +8,4 @@ repository for golang basics
 5. stdlib-sort
 6. loops
 7. functions 
+8. packages
