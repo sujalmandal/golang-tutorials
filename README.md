@@ -9,3 +9,4 @@ repository for golang basics
 6. loops
 7. functions 
 8. packages
+9. maps
