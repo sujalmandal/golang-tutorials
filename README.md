@@ -10,3 +10,4 @@ repository for golang basics
 7. functions 
 8. packages
 9. maps
+10. structs
