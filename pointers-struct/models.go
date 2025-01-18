@@ -19,7 +19,7 @@ func newPerson(firstName string, lastName string, age int) Person {
 }
 
 func (p *Person) print(msg string) {
-	fmt.Printf("------%v------", msg)
+	fmt.Printf("------%v------%p", msg, p)
 	fmt.Printf(
 		"\nName -> %v\nAge -> %v\nAddress ->\n%v\n",
 		(p.firstName + " " + p.middleName + " " + p.lastName),
