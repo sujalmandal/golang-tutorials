@@ -12,3 +12,4 @@ repository for golang basics
 9. maps
 10. structs
 11. pointers
+12. pointers-struct
