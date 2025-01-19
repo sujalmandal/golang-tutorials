@@ -13,3 +13,4 @@ repository for golang basics
 10. structs
 11. pointers
 12. pointers-struct
+13. bufio
