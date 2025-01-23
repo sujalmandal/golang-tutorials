@@ -15,3 +15,4 @@ repository for golang basics
 12. pointers-struct
 13. bufio
 14. switch
+15. interfaces
